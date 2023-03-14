@@ -1,1 +1,18 @@
+Tags: General Skills, OSINT
+AUTHOR: JUNI19
 
+Description
+Flag format: picoCTF{Malwarename}
+The first letter of the malware name should be capitalized and the rest lowercase.
+
+Your friend just got hacked and has been asked to pay some bitcoins to 1Mz7153HMuxXTuR2R1t78mGSdzaAtNbBWX. 
+He doesn’t seem to understand what is going on and asks you for advice. Can you identify what malware he’s being a victim of?
+
+Solution: 
+
+1. Google the bitcoin address. Many websites will come with the same bitcoin address. 
+
+
+2. Just try visitng websites. The answer can be found in the news website which states the name of malware used to ask ransom. 
+
+Flag: picoCTF{Petya} 
