@@ -17,7 +17,12 @@ He doesn’t seem to understand what is going on and asks you for advice. Can yo
 1. Google the bitcoin address. Many websites will come with the same bitcoin address. 
 
 
+<img width="620" alt="money-ware 1" src="https://user-images.githubusercontent.com/66155978/225213529-9066ff8e-e0b8-45cf-8c0d-aaa15c4fcdb2.png">
 
 2. Just try visitng websites. The answer can be found in the news website which states the name of malware used to ask ransom. 
 
-Flag: picoCTF{Petya} 
+<img width="473" alt="image" src="https://user-images.githubusercontent.com/66155978/225213710-6489bf70-2385-49a3-8390-1de8c56f8879.png">
+
+
+## Flag: 
+picoCTF{Petya} 
