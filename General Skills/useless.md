@@ -23,7 +23,7 @@ Password: password
 The challenge is indeed useless😪😴
 1. Login using ssh  
 2. There's a script named "useless" which performs basic mathematical operations and at the end says to read manual 
-3. 
+
 <img width="365" alt="image" src="https://user-images.githubusercontent.com/66155978/225892816-2246cb08-25e0-49b2-a645-c156e70d7900.png">
 
 3. Just read the manual of "useless" using "man useless" and get the flag at bottom. 
