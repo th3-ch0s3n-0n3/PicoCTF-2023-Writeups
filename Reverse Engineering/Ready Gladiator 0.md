@@ -21,6 +21,20 @@ nc saturn.picoctf.net 56066 < imp.red
 
 
 ## Solution 
+In a round of Core War, two programs attempt to halt each other by overwriting instructions that are about to be executed. In the given source code there are two warriors playing and all the matches are getting tied. 
+
+;redcode
+
+;name Imp Ex
+
+;assert 1
+
+mov 0, 1
+
+end
+
+This RedCode program copies the value in memory location 0 to memory location 1 and then ends. I had no idea how to solve this so I just changed "mov" instruction and I got the flag. :D
+
 
 <img width="406" alt="image" src="https://user-images.githubusercontent.com/66155978/225910184-a44cd7bb-25ec-466e-a3f5-7e85a14dc44b.png">
 
