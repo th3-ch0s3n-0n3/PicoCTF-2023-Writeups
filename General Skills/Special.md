@@ -19,6 +19,8 @@ ssh -p 61292 ctf-player@saturn.picoctf.net
 
 The password is fd7746b4
 
+## Solution
+
 This is a weird shell... everything you type either changes capitalisation or correct the spelling. So we need to bypass this functionality and get the flag. Also, we are not authorized to read files which we don't own ( root files). 
 
 <img width="277" alt="image" src="https://user-images.githubusercontent.com/66155978/226282284-bd13f10f-d77c-4480-b699-777a6d438d96.png">
@@ -29,5 +31,18 @@ I referred to this [doc](https://pubs.opengroup.org/onlinepubs/009604499/utiliti
 
 Now the commands are working but we can't run every command due to low privielge. 
 
-## Solution 
+Later, I referred to this [article](https://jarv.org/posts/cat-without-cat/) which shows how to read with cat without cat and I came up with this. 
+
+```
+cat flag.txt | cat /home/ctf-player/*/*.txt
+```
+
+And flag is printed on the screennn!!!
+
+<img width="265" alt="image" src="https://user-images.githubusercontent.com/66155978/227587514-83434bbf-2840-42b9-a5b6-b6ef11cf2e6b.png">
+
+
+## Flag
+
+picoCTF{5p311ch3ck_15_7h3_w0r57_f578af59}
 
